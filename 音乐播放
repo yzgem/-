@@ -23,16 +23,16 @@ int main()
   loop: system("cls");
   system("color f4");
 
-  printf("\t\t\t»¶Ó­Ê¹ÓÃ!!!\n\n");
-  printf("\t1.µ¯¸ÖÇÙ\t2.²¥·Å°é×à\t3.²¥·ÅÒôÀÖ\t0.ÍË³ö\n\n");
+  printf("\t\t\tæ¬¢è¿ä½¿ç”¨!!!\n\n");
+  printf("\t1.å¼¹é’¢ç´\t2.æ’­æ”¾ä¼´å¥\t3.æ’­æ”¾éŸ³ä¹\t0.é€€å‡º\n\n");
   while(1)
   {
-  printf("ÇëÑ¡Ôñ");
+  printf("è¯·é€‰æ‹©");
  
   
   if(scanf("%d",&opt)==0)
   {
-  while(getchar()!='\n');//Çå¿Õ»º´æÇø
+  while(getchar()!='\n');//æ¸…ç©ºç¼“å­˜åŒº
   opt=-1;
   
   }
@@ -41,8 +41,8 @@ int main()
   case 0:return 1;
   case 1:
 	  {
-		  system("cls");//ÇåÆÁ
-		  printf("´ËÊ±¿ÉÒÔµ¯ÇÙ£¨»Ø³µ¼ü½áÊø£©£¡£¡");
+		  system("cls");//æ¸…å±
+		  printf("æ­¤æ—¶å¯ä»¥å¼¹ç´ï¼ˆå›è½¦é”®ç»“æŸï¼‰ï¼ï¼");
 		  play(); 
 		  goto loop;
 	  }break;
@@ -52,34 +52,34 @@ int main()
 		 while(1)
 		 {
 			 system("cls");
-			 printf("ÄãÑ¡ÔñµÄÊÇ²¥·Å°é×à\n\n");
-		     printf("\t1.Í¯»°\t2.ĞÇÓïĞÄÔ¸ \t3. »áºôÎüµÄÍ´ \t0.·µ»Ø");
-             printf("ÇëÑ¡Ôñ");
+			 printf("ä½ é€‰æ‹©çš„æ˜¯æ’­æ”¾ä¼´å¥\n\n");
+		     printf("\t1.ç«¥è¯\t2.æ˜Ÿè¯­å¿ƒæ„¿ \t3. ä¼šå‘¼å¸çš„ç—› \t0.è¿”å›");
+             printf("è¯·é€‰æ‹©");
  
          if(scanf("%d",&opt)==0)
 	   {
-      while(getchar()!='\n');//Çå¿Õ»º´æÇø
+      while(getchar()!='\n');//æ¸…ç©ºç¼“å­˜åŒº
 	  opt=-1;}
 	   switch(opt)
 	   {
   
        case 0:goto loop;
        case 1:
-		   {printf("²¥·Å Í¯»°");
+		   {printf("æ’­æ”¾ ç«¥è¯");
 		   sing(music);}break;
 
 	   case 2:
-		  {printf("²¥·Å ĞÇÓïĞÄÔ¸");
+		  {printf("æ’­æ”¾ æ˜Ÿè¯­å¿ƒæ„¿");
 		 sing(music1); }break;
 
 	   case 3:
-		   {printf("²¥·Å »áºôÎüµÄÍ´");
+		   {printf("æ’­æ”¾ ä¼šå‘¼å¸çš„ç—›");
 		 sing(music2); }break;
 	   
 	   }
 	    default:
 			{
-	  printf("ÊäÈë´íÎó£¬ÈıÃë·µ»Ø");
+	  printf("è¾“å…¥é”™è¯¯ï¼Œä¸‰ç§’è¿”å›");
 	  Sleep(3000);
 
   
@@ -95,13 +95,13 @@ int main()
 		 while(1)
 		 {
 			 system("cls");
-			 printf("ÄãÑ¡ÔñµÄÊÇ²¥·ÅÒôÀÖ\n\n");
-		     printf("\t1.Í¯»°\t2.ĞÇÓïĞÄÔ¸ \t3. »áºôÎüµÄÍ´ \t0.·µ»Ø");
-             printf("ÇëÑ¡Ôñ");
+			 printf("ä½ é€‰æ‹©çš„æ˜¯æ’­æ”¾éŸ³ä¹\n\n");
+		     printf("\t1.ç«¥è¯\t2.æ˜Ÿè¯­å¿ƒæ„¿ \t3. ä¼šå‘¼å¸çš„ç—› \t0.è¿”å›");
+             printf("è¯·é€‰æ‹©");
  
              if(scanf("%d",&opt)==0)
 			{
-				while(getchar()!='\n');//Çå¿Õ»º´æÇø
+				while(getchar()!='\n');//æ¸…ç©ºç¼“å­˜åŒº
 				opt=-1;
 			 }
 			   switch(opt)
@@ -109,16 +109,16 @@ int main()
   
 			   case 0:goto loop;
 			   case 1:
-				   {printf("²¥·Å ÕæµÄ°®Äã");
+				   {printf("æ’­æ”¾ çœŸçš„çˆ±ä½ ");
 				   sang(1); 
 				   }break;
 
 			   case 2:
-				  {printf("²¥·Å");
+				  {printf("æ’­æ”¾");
 				 sang(2); }break;
 
 			   case 3:
-				   {printf("²¥·Å µ¥ÉíÇé¸è");
+				   {printf("æ’­æ”¾ å•èº«æƒ…æ­Œ");
 				 sang(3); }break;
 			   
 			   }
